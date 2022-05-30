@@ -1,5 +1,23 @@
-@media screen and (max-width: 47.938rem) {
-  .more-news {
-    display: block;
+@media screen and (max-width: 75rem) {
+  .first-news {
+    padding: 3.8rem 14rem;
   }
 }
+
+@media screen and (max-width: 61.938rem) {
+  .more-news {
+    flex-wrap: wrap;
+  }
+
+  .first-news {
+    padding: 3.8rem 10rem;
+  }
+}
+
+@media screen and (max-width: 47.938rem) {
+  .first-news {
+    padding: 3.8rem 2rem;
+  }
+}
+
+@media screen and (max-width: 35.938rem) {}
